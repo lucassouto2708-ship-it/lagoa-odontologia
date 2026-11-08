@@ -339,6 +339,7 @@ nav ul a{white-space:nowrap}
   .js .stars.pop svg{opacity:1;animation:none}
   .diag .orb,.badge-dra,.wpp-float::before,.wm .track{animation:none}
 }
+@media(max-width:600px){.segmented label{font-size:.8rem;padding:10px 4px;line-height:1.25}}
 </style>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Dentist","name":"Lagoa Odontologia Especializada",
@@ -515,7 +516,7 @@ nav ul a{white-space:nowrap}
         <label for="agTrat">Tratamento de interesse</label>
         <div class="select">
           <select id="agTrat" name="tratamento">
-            <option value="">Avaliação geral (ainda não sei)</option>
+            <option value="">Avaliação geral</option>
             <option>Ortodontia</option>
             <option>Clareamento dental</option>
             <option>Estética do sorriso</option>
@@ -531,7 +532,7 @@ nav ul a{white-space:nowrap}
         <div class="segmented">
           <input type="radio" name="periodo" id="pM" value="manhã" checked><label for="pM">Manhã</label>
           <input type="radio" name="periodo" id="pT" value="tarde"><label for="pT">Tarde</label>
-          <input type="radio" name="periodo" id="pQ" value="qualquer"><label for="pQ">Tanto faz</label>
+          <input type="radio" name="periodo" id="pQ" value="qualquer"><label for="pQ">Qualquer horário</label>
           <span class="thumb" aria-hidden="true"></span>
         </div>
       </fieldset>
